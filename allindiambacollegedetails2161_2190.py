@@ -35,7 +35,6 @@ BASE_URL = [
   "https://www.shiksha.com/college/radha-govind-group-of-institutions-meerut-25003",
   "https://www.shiksha.com/college/vsm-college-andhra-pradesh-other-25493",
   "https://www.shiksha.com/college/imperial-institute-of-hotel-management-chandigarh-35091",
-  "https://www.shiksha.com/college/carlton-business-school-somajiguda-hyderabad-35366",
 ]
 
 
