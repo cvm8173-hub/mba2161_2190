@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/bhusawal-arts-science-and-p-o-nahata-commerce-college-65143",
-  "https://www.shiksha.com/college/shri-sai-institute-of-management-and-research-aurangabad-68677",
-  "https://www.shiksha.com/college/seva-sadan-mahavidyalaya-burhanpur-75745",
-  "https://www.shiksha.com/college/school-of-business-management-and-technology-bulandshahr-131769",
-  "https://www.shiksha.com/college/shri-ram-college-bhopal-147179",
-  "https://www.shiksha.com/college/madurai-institute-of-social-science-college-193767",
-  "https://www.shiksha.com/college/pibm-global-mulshi-pune-213625",
-  "https://www.shiksha.com/college/aditya-college-of-engineering-and-technology-bangalore-213705",
-  "https://www.shiksha.com/college/sree-amman-arts-science-college-tamil-nadu-erode-21240",
-  "https://www.shiksha.com/college/sri-venkatesa-perumal-college-of-engineering-and-technology-svpcet-chittoor-21299",
-  "https://www.shiksha.com/college/chirala-engineering-college-andhra-pradesh-other-22501",
-  "https://www.shiksha.com/college/maharani-science-college-bangalore-115425",
-  "https://www.shiksha.com/college/akshara-institute-of-management-and-technology-chittoor-146179",
-  "https://www.shiksha.com/college/centre-for-management-and-technology-visakhapatnam-146339",
-  "https://www.shiksha.com/college/periyar-university-post-graduate-ext-centre-government-arts-college-campus-dharmapuri-193813",
-  "https://www.shiksha.com/college/sinhgad-business-school-pune-202151",
-  "https://www.shiksha.com/college/dr-mps-group-college-of-hotel-management-agra-24885",
-  "https://www.shiksha.com/college/radha-govind-group-of-institutions-meerut-25003",
-  "https://www.shiksha.com/college/vsm-college-andhra-pradesh-other-25493",
-  "https://www.shiksha.com/college/imperial-institute-of-hotel-management-chandigarh-35091",
+  "https://www.shiksha.com/college/ramesh-chand-institute-of-management-ghaziabad-30574",
+  "https://www.shiksha.com/college/naipunnya-institute-of-management-and-information-technology-thrissur-73893",
+  "https://www.shiksha.com/university/jharkhand-university-of-technology-ranchi-88779",
+  "https://www.shiksha.com/college/knowledge-business-school-salem-101415",
+  "https://www.shiksha.com/college/idhaya-college-of-women-thanjavur-110021",
+  "https://www.shiksha.com/college/grace-college-of-engineering-thoothukudi-148289",
+  "https://www.shiksha.com/college/keshav-memorial-engineering-college-uppal-hyderabad-156569",
+  "https://www.shiksha.com/college/prashant-institute-of-professional-studies-gwalior-156977",
+  "https://www.shiksha.com/college/vee-academy-gwalior-157093",
+  "https://www.shiksha.com/college/nrupatunga-institute-of-technology-and-management-hyderabad-244294",
+  "https://www.shiksha.com/college/hindustan-college-of-arts-and-science-kelambakkam-chennai-2946",
+  "https://www.shiksha.com/college/mec-mahendra-engineering-college-namakkal-20596",
+  "https://www.shiksha.com/college/vimal-jyoti-engineering-college-vjec-kannur-24538",
+  "https://www.shiksha.com/college/trident-et-group-of-institutions-ghaziabad-32027",
+  "https://www.shiksha.com/college/meri-college-of-engineering-and-technology-meri-cet-bahadurgarh-37432",
+  "https://www.shiksha.com/college/lifestyle-and-luxury-management-institute-llmi-chandigarh-37688",
+  "https://www.shiksha.com/college/nalanda-school-of-business-tamil-nadu-other-148269",
+  "https://www.shiksha.com/college/bharath-institute-of-management-thanjavur-148275",
+  "https://www.shiksha.com/college/ch-college-indore-157043",
+  "https://www.shiksha.com/college/field-marshal-k-m-cariappa-college-karnataka-other-185447",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2071
+    c_count =2351
 
     try:
         for base_url in BASE_URL:
