@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ramesh-chand-institute-of-management-ghaziabad-30574",
-  "https://www.shiksha.com/college/naipunnya-institute-of-management-and-information-technology-thrissur-73893",
-  "https://www.shiksha.com/university/jharkhand-university-of-technology-ranchi-88779",
-  "https://www.shiksha.com/college/knowledge-business-school-salem-101415",
-  "https://www.shiksha.com/college/idhaya-college-of-women-thanjavur-110021",
-  "https://www.shiksha.com/college/grace-college-of-engineering-thoothukudi-148289",
-  "https://www.shiksha.com/college/keshav-memorial-engineering-college-uppal-hyderabad-156569",
-  "https://www.shiksha.com/college/prashant-institute-of-professional-studies-gwalior-156977",
-  "https://www.shiksha.com/college/vee-academy-gwalior-157093",
-  "https://www.shiksha.com/college/nrupatunga-institute-of-technology-and-management-hyderabad-244294",
-  "https://www.shiksha.com/college/hindustan-college-of-arts-and-science-kelambakkam-chennai-2946",
-  "https://www.shiksha.com/college/mec-mahendra-engineering-college-namakkal-20596",
-  "https://www.shiksha.com/college/vimal-jyoti-engineering-college-vjec-kannur-24538",
-  "https://www.shiksha.com/college/trident-et-group-of-institutions-ghaziabad-32027",
-  "https://www.shiksha.com/college/meri-college-of-engineering-and-technology-meri-cet-bahadurgarh-37432",
-  "https://www.shiksha.com/college/lifestyle-and-luxury-management-institute-llmi-chandigarh-37688",
-  "https://www.shiksha.com/college/nalanda-school-of-business-tamil-nadu-other-148269",
-  "https://www.shiksha.com/college/bharath-institute-of-management-thanjavur-148275",
-  "https://www.shiksha.com/college/ch-college-indore-157043",
-  "https://www.shiksha.com/college/field-marshal-k-m-cariappa-college-karnataka-other-185447",
+  "https://www.shiksha.com/college/international-school-of-design-dehradun-67493",
+  "https://www.shiksha.com/college/p-n-c-and-k-r-college-narasaraopet-188723",
+  "https://www.shiksha.com/college/institute-of-technology-kannur-194653",
+  "https://www.shiksha.com/college/dpc-institute-of-management-dwarka-delhi-3180",
+  "https://www.shiksha.com/college/aakson-group-of-institutions-r-t-nagar-bangalore-19261",
+  "https://www.shiksha.com/college/jayamukhi-institute-of-technological-sciences-jits-warangal-20381",
+  "https://www.shiksha.com/college/al-falah-school-of-engineering-and-technology-faridabad-24021",
+  "https://www.shiksha.com/college/arunai-engineering-college-tamil-nadu-other-24031",
+  "https://www.shiksha.com/college/compucom-institute-of-technology-management-jaipur-24054",
+  "https://www.shiksha.com/college/guru-teg-bahadur-khalsa-institute-of-engineering-and-technology-muktsar-26269",
+  "https://www.shiksha.com/college/commits-institute-of-journalism-and-mass-communication-h-s-r-layout-bangalore-26730",
+  "https://www.shiksha.com/college/jindal-school-of-hotel-management-sigma-university-vadodara-28927",
+  "https://www.shiksha.com/college/shri-dhondu-baliram-pawar-college-of-management-nashik-37064",
+  "https://www.shiksha.com/college/cardinal-cleemis-school-of-management-studies-ccsms-trivandrum-37695",
+  "https://www.shiksha.com/college/csc-candid-school-of-communication-salt-lake-city-kolkata-38350",
+  "https://www.shiksha.com/college/akrg-college-of-engineering-and-technology-andhra-pradesh-other-43291",
+  "https://www.shiksha.com/college/sahib-institute-of-management-and-research-indore-75319",
+  "https://www.shiksha.com/college/adithya-institue-of-management-studies-and-research-bangalore-115435",
+  "https://www.shiksha.com/college/subhwanti-institute-of-education-siwan-120435",
+  "https://www.shiksha.com/college/thiruvalluvar-university-post-graduate-extension-centre-arignar-anna-government-arts-college-villupuram-140307",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2351
+    c_count =2471
 
     try:
         for base_url in BASE_URL:
