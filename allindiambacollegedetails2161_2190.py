@@ -15,26 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/international-school-of-design-dehradun-67493",
-  "https://www.shiksha.com/college/p-n-c-and-k-r-college-narasaraopet-188723",
-  "https://www.shiksha.com/college/institute-of-technology-kannur-194653",
-  "https://www.shiksha.com/college/dpc-institute-of-management-dwarka-delhi-3180",
-  "https://www.shiksha.com/college/aakson-group-of-institutions-r-t-nagar-bangalore-19261",
-  "https://www.shiksha.com/college/jayamukhi-institute-of-technological-sciences-jits-warangal-20381",
-  "https://www.shiksha.com/college/al-falah-school-of-engineering-and-technology-faridabad-24021",
-  "https://www.shiksha.com/college/arunai-engineering-college-tamil-nadu-other-24031",
-  "https://www.shiksha.com/college/compucom-institute-of-technology-management-jaipur-24054",
-  "https://www.shiksha.com/college/guru-teg-bahadur-khalsa-institute-of-engineering-and-technology-muktsar-26269",
-  "https://www.shiksha.com/college/commits-institute-of-journalism-and-mass-communication-h-s-r-layout-bangalore-26730",
-  "https://www.shiksha.com/college/jindal-school-of-hotel-management-sigma-university-vadodara-28927",
-  "https://www.shiksha.com/college/shri-dhondu-baliram-pawar-college-of-management-nashik-37064",
-  "https://www.shiksha.com/college/cardinal-cleemis-school-of-management-studies-ccsms-trivandrum-37695",
-  "https://www.shiksha.com/college/csc-candid-school-of-communication-salt-lake-city-kolkata-38350",
-  "https://www.shiksha.com/college/akrg-college-of-engineering-and-technology-andhra-pradesh-other-43291",
-  "https://www.shiksha.com/college/sahib-institute-of-management-and-research-indore-75319",
-  "https://www.shiksha.com/college/adithya-institue-of-management-studies-and-research-bangalore-115435",
-  "https://www.shiksha.com/college/subhwanti-institute-of-education-siwan-120435",
-  "https://www.shiksha.com/college/thiruvalluvar-university-post-graduate-extension-centre-arignar-anna-government-arts-college-villupuram-140307",
+  "https://www.shiksha.com/college/ntpc-school-of-business-noida-57303",
+  "https://www.shiksha.com/college/magadh-professional-institute-patna-211685",
+  "https://www.shiksha.com/university/noorul-islam-centre-for-higher-education-kanyakumari-1350",
+  "https://www.shiksha.com/college/nmam-institute-of-technology-nitte-university-mangalore-34649",
+  "https://www.shiksha.com/college/e-g-s-pillay-engineering-college-nagapattinam-19973",
+  "https://www.shiksha.com/university/itm-university-raipur-42934",
+  "https://www.shiksha.com/college/haridwar-university-roorkee-47378",
+  "https://www.shiksha.com/college/vignan-s-institute-of-engineering-for-women-view-visakhapatnam-43358",
+  "https://www.shiksha.com/university/mats-university-raipur-37181",
+  "https://www.shiksha.com/college/gandhinagar-university-38262",
+  "https://www.shiksha.com/college/anna-university-madurai-regional-campus-62009",
+  "https://www.shiksha.com/college/aset-institute-of-technology-chembarambakkam-chennai-138691",
+  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-management-entrepreneur-development-talegaon-dabhade-pune-64703",
+  "https://www.shiksha.com/college/delhi-college-madhya-pradesh-other-147449",
+  "https://www.shiksha.com/university/prestige-university-indore-181517",
+  "https://www.shiksha.com/university/pacific-university-udaipur-38049",
+  "https://www.shiksha.com/college/mgm-institute-of-management-and-research-aurangabad-20643",
+  "https://www.shiksha.com/college/abhijit-kadam-institute-of-management-and-social-sciences-bharati-vidyapeeth-solapur-42937",
+  "https://www.shiksha.com/university/veer-kunwar-singh-university-arrah-65701",
+  "https://www.shiksha.com/university/rama-devi-women-s-university-bhubaneswar-57037",
+  "https://www.shiksha.com/college/school-of-business-sushant-university-gurgaon-38926",
+  "https://www.shiksha.com/college/national-college-thane-thane-west-53644",
+  "https://www.shiksha.com/college/pailan-college-of-management-and-technology-pcmt-joka-kolkata-24327",
+  "https://www.shiksha.com/college/met-asian-management-development-centre-bandra-west-mumbai-47088",
+  "https://www.shiksha.com/college/seshadripuram-academy-for-global-excellence-sage-yelahanaka-bangalore-8872",
+  "https://www.shiksha.com/college/east-west-group-of-institutions-magadi-road-vishwaneedam-bangalore-26914",
+  "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-and-technology-thanjavur-65899",
+  "https://www.shiksha.com/college/k-c-college-of-management-studies-kccms-colaba-colaba-mumbai-33019",
+  "https://www.shiksha.com/college/measi-institute-of-management-royapettah-chennai-20776",
+  "https://www.shiksha.com/college/indukaka-ipcowala-institute-of-management-charotar-university-of-science-and-technology-anand-42944",
 ]
 
 
@@ -9242,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2471
+    c_count =661
 
     try:
         for base_url in BASE_URL:
